@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+	font-size: 10pt;
+}
+
+@font-face {
+	font-family: FuturaStd-Light;
+	src: url(fonts/FuturaStd-Light.otf);
+}
+
+header{
+	width: 100%;
+	background-color: #f6d9d1;
+	height: 75px;
+	
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.logo img{
+	height: 50px;
+	width: 50px;
+	
+}
+.logo{
+	width: 50px;
+	float: left;
+}
+
+#menu{
+	padding: 15px;
+	margin: auto;
+	box-sizing: border-box;
+	height: auto;
+}
+
+#menu .lista {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px 0;
+}
+
+#menu ul a{
+	color: #637e68;
+	text-decoration: none;
+	font: light 12px verdana;
+	padding: 0 20px;
+	background: transparent;
+	border-bottom: 2px solid transparent;
+}
+
+#menu ul {
+	margin-bottom: 0;
+}
+
+#menu ul a:hover{
+	border-bottom: 2px solid #637e68;
+}
+
+.fondo{
+	background: url("../img/fondo.jpg") no-repeat center center fixed;
+	height: 500px;
+	width: 100%;
+ 	background-size: cover;
+ 	padding: 100px;
+}
+.fondo .cuadro-opacidad{
+   background-color: rgb(245, 216, 208, 0.5);
+}
+.fondo h1{
+	font-family: verdana;
+	font-size: 60px;
+	color: #637e69;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.fondo p{
+	text-align: center;
+	font-size: 15px;
+	font-family: verdana;
+	color: black;
+	padding-bottom: 80px;
+}
+
+h2{
+	color: #f3b838;
+	padding-top: 30px;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+.historia{
+	background-color: #637e68;
+	letter-spacing: 4px;
+	border-style: solid;
+	border-color: white;
+	margin: 30px 30px 30px 30px;
+}
+
+.historia p{
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-left: 230px;
+	padding-right: 230px;
+	color: #f6d9d1;
+	text-align: center;
+	font-family: arial;
+	letter-spacing: 0px;
+}
+
+.aromas img{
+	width: 100%;
+	height: 100%;
+	margin-top: -7px;
+}
+
+.titulo-aromas h2{
+	background-color: #f6d9d1;
+	text-align: center;
+	padding-bottom: 25px;
+	letter-spacing: 4px; 
+}
+
+.variedades{
+	background-color: #f3b738;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px; 
+	padding-left: 230px;
+	padding-right: 230px;
+	text-align: center;
+}
+
+.variedades p{
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-left: 230px;
+	padding-right: 230px;
+	text-align: center;
+	font-family: arial;
+	letter-spacing: 0px;
+}
+
+.formulario{
+	padding-left: 300px;
+	padding-right: 300px;
+	color: #637e68;
+	letter-spacing: 0px;
+}
+
+.nombre1{
+	margin-top: 40px;
+}
+
+.textoinvitacion{
+	text-align: center;
+	color: #637e68;
+	margin-top: 40px;
+	letter-spacing: 0px;
+}
+
+#newsletter{
+	background-color: #f6d9d1;
+	letter-spacing: 4px;
+	margin-top: 43px;
+
+}
+
+.enviar2 {
+  background-color: #f3b838;
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 100px;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.redes img{
+	width: 50px;
+	height: 50px;
+	margin-right: 15px;
+}
+
+.redes{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer{
+	text-align: center;
+}
+.dibujos img{
+	width: 100%;
+	height: 100%;
+}
+
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:20px;
+  color:black;
+  cursor:pointer;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  z-index:2;
+}
+
+.flechita img{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 20px;
+	right: 33px;
+
+} 
